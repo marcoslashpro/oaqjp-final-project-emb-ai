@@ -1,5 +1,6 @@
 let RunSentimentAnalysis = ()=>{
     textToAnalyze = document.getElementById("textToAnalyze").value;
+    console.log(textToAnalyze)
 
     let xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
